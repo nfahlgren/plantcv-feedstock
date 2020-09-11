@@ -1,21 +1,11 @@
-From 8fc13f4fdcf045861934661262f9ee1fe6fdb744 Mon Sep 17 00:00:00 2001
-From: nfahlgren <noahfahlgren@gmail.com>
-Date: Thu, 13 Aug 2020 11:16:29 -0500
-Subject: [PATCH] Patch requirements and setup
-
----
- requirements.txt | 1 -
- setup.py         | 2 --
- 2 files changed, 3 deletions(-)
-
 diff --git a/requirements.txt b/requirements.txt
-index 58c3660..e836302 100644
+index ad59e73..a4e48c4 100644
 --- a/requirements.txt
 +++ b/requirements.txt
-@@ -6,4 +6,3 @@ scipy
- scikit-image
- scikit-learn
+@@ -8,4 +8,3 @@ scikit-learn
  plotnine
+ dask
+ dask-jobqueue
 -opencv-python<4, >=3.4
 diff --git a/setup.py b/setup.py
 index 3a22ecb..793ecdd 100644
@@ -29,7 +19,3 @@ index 3a22ecb..793ecdd 100644
 -    tests_require=['pytest'],
      cmdclass=versioneer.get_cmdclass(),
      scripts=["plantcv-train.py", "plantcv-utils.py", "plantcv-workflow.py"]
- 
--- 
-2.24.3 (Apple Git-128)
-
