@@ -32,6 +32,8 @@ requirements:
     - scikit-image
     - scikit-learn
     - scipy
+    - dask
+    - dask-jobqueue
 
 test:
   imports:
