@@ -1,5 +1,5 @@
 {% set name = "plantcv" %}
-{% set version = "3.9.0" %}
+{% set version = "3.10.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: a00570af93835582135d869f34b87142415149922e05119bb1ed2ac7fe7f07a0
+  sha256: 76d39e55c7c19595b4d12f1c04672f6add69c6f45d470fadf3320b07b8ade4af
   patches:
     - 0001-Patch-requirements-and-setup.patch
 
@@ -32,6 +32,8 @@ requirements:
     - scikit-image
     - scikit-learn
     - scipy
+    - dask
+    - dask-jobqueue
 
 test:
   imports:
