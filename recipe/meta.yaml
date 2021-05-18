@@ -1,5 +1,5 @@
 {% set name = "plantcv" %}
-{% set version = "3.12.0" %}
+{% set version = "3.12.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: c842855c7558463a971d02db47e430d62001e2aad7da559c7f6d2f27ca3026e5
+  sha256: c61ddc47e39282a2a1b6db38a923e754c47df9b8abd132bae3fe76f65f71ecf6
   patches:
     - 0001-Patch-requirements-and-setup.patch
 
