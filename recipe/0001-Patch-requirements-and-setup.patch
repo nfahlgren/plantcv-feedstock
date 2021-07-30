@@ -1,14 +1,15 @@
 diff --git a/requirements.txt b/requirements.txt
-index ad59e73..a4e48c4 100644
+index 74f981d9..b0adb0f2 100644
 --- a/requirements.txt
 +++ b/requirements.txt
-@@ -8,4 +8,3 @@ scikit-learn
+@@ -8,5 +8,4 @@ scikit-learn
  plotnine
  dask
  dask-jobqueue
 -opencv-python<4, >=3.4
+ statsmodels
 diff --git a/setup.py b/setup.py
-index 3a22ecb..793ecdd 100644
+index 3a22ecb2..793ecdd0 100644
 --- a/setup.py
 +++ b/setup.py
 @@ -109,8 +109,6 @@ setuptools.setup(
@@ -19,3 +20,4 @@ index 3a22ecb..793ecdd 100644
 -    tests_require=['pytest'],
      cmdclass=versioneer.get_cmdclass(),
      scripts=["plantcv-train.py", "plantcv-utils.py", "plantcv-workflow.py"]
+ 
