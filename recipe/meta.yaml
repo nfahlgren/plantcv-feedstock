@@ -24,7 +24,7 @@ requirements:
   run:
     - matplotlib-base >=1.5
     - numpy >=1.11
-    - opencv <4,>=3.4
+    - opencv
     - pandas
     - plotnine
     - python >=3.6
