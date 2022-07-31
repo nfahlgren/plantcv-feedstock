@@ -1,5 +1,5 @@
 {% set name = "plantcv" %}
-{% set version = "3.14" %}
+{% set version = "3.14.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ccd4f755543935eb6d26f5bc1189a986218f0c64a708b328d26071411c1350ba
+  sha256: 8719db55b70b7a3f19b5c6c236476e901651dac983f0718fb4ba2dffa507e10b
   patches:
     - 0001-Patch-requirements-and-setup.patch
 
@@ -23,7 +23,7 @@ requirements:
     - python >=3.6
   run:
     - matplotlib-base >=1.5
-    - numpy >=1.11
+    - numpy >=1.11,<1.23
     - opencv
     - pandas
     - plotnine
