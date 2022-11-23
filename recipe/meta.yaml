@@ -22,7 +22,7 @@ requirements:
     - pip
     - python >=3.6
   run:
-    - matplotlib-base >=1.5
+    - matplotlib-base >=1.5,<3.6
     - numpy >=1.11,<1.23
     - opencv
     - pandas
