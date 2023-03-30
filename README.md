@@ -1,11 +1,11 @@
-About plantcv
-=============
+About plantcv-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/plantcv-feedstock/blob/main/LICENSE.txt)
 
 Home: http://plantcv.danforthcenter.org
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/plantcv-feedstock/blob/main/LICENSE.txt)
 
 Summary: An image processing package for plant phenotyping.
 
