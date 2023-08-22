@@ -25,16 +25,18 @@ requirements:
     - matplotlib-base >=1.5,<3.6
     - numpy >=1.11,<1.23
     - opencv
-    - pandas
-    - plotnine
+    - pandas<2
     - python >=3.6
     - python-dateutil
-    - scikit-image
+    - scikit-image>=0.19
     - scikit-learn
     - scipy
     - dask
     - dask-jobqueue
     - statsmodels
+    - xarray>=2022.11.0
+    - altair
+    - vl-convert-python
 
 test:
   imports:
@@ -51,8 +53,8 @@ test:
 about:
   home: http://plantcv.danforthcenter.org
   summary: An image processing package for plant phenotyping.
-  license: MIT
-  license_family: MIT
+  license: MPLv2
+  license_family: MPL
   license_file: LICENSE
 
 extra:
