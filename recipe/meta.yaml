@@ -52,6 +52,8 @@ test:
 
 about:
   home: https://plantcv.org
+  dev_url: https://github.com/danforthcenter/plantcv
+  doc_url: https://plantcv.readthedocs.io
   summary: An image processing package for plant phenotyping.
   license: MPL-2.0
   license_family: MOZILLA
