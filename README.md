@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/plantcv-feedsto
 
 Home: http://plantcv.danforthcenter.org
 
-Package license: MIT
+Package license: MPL-2.0
 
 Summary: An image processing package for plant phenotyping.
 
