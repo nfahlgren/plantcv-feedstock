@@ -51,7 +51,7 @@ test:
     - pip
 
 about:
-  home: http://plantcv.danforthcenter.org
+  home: https://plantcv.org
   summary: An image processing package for plant phenotyping.
   license: MPL-2.0
   license_family: MOZILLA
