@@ -49,6 +49,7 @@ test:
     - pip check
   requires:
     - pip
+    - libopencv *=headless*
 
 about:
   home: https://plantcv.org
