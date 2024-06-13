@@ -10,7 +10,7 @@ source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: 723b5c5e4d5e0cf786fc8ca50214a629150746c29c3b93248a99c3fe55c03211
   patches:
-    - 0001-Patch-requirements-and-setup.patch
+    - 0001-Patch-pyproject.patch
 
 build:
   number: 0
