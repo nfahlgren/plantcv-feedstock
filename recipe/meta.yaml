@@ -21,13 +21,13 @@ requirements:
   host:
     - setuptools
     - pip
-    - python >=3.6
+    - python {{ python_min }}
   run:
     - matplotlib-base >=1.5
     - numpy >=1.11, < 2
     - opencv
     - pandas
-    - python >=3.6
+    - python >={{ python_min }}
     - python-dateutil
     - scikit-image >=0.19
     - scikit-learn
@@ -49,6 +49,7 @@ test:
   commands:
     - pip check
   requires:
+    - python {{ python_min }}
     - pip
     - libopencv *=headless*
 
