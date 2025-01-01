@@ -1,5 +1,6 @@
 {% set name = "plantcv" %}
 {% set version = "4.6" %}
+{% set python_min = "3.9" %}
 
 
 package:
