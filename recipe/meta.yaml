@@ -1,5 +1,6 @@
 {% set name = "plantcv" %}
-{% set version = "4.5.1" %}
+{% set version = "4.6" %}
+{% set python_min = "3.9" %}
 
 
 package:
@@ -7,8 +8,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: d554d11ea079ebd1b4eb313f508e9ee3ebc154fe7f87a17e5f4c2d2191ac0dd8
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 3ad74ee0b76bfda1cf870e9c329c1bd9659e5ce678e4fdeea0f869af8ebe4263
   patches:
     - 0001-Patch-pyproject.patch
 
@@ -21,13 +22,13 @@ requirements:
   host:
     - setuptools
     - pip
-    - python >=3.6
+    - python {{ python_min }}
   run:
     - matplotlib-base >=1.5
     - numpy >=1.11, < 2
     - opencv
     - pandas
-    - python >=3.6
+    - python >={{ python_min }}
     - python-dateutil
     - scikit-image >=0.19
     - scikit-learn
@@ -49,6 +50,7 @@ test:
   commands:
     - pip check
   requires:
+    - python {{ python_min }}
     - pip
     - libopencv *=headless*
 
