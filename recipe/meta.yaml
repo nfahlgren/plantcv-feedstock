@@ -25,7 +25,7 @@ requirements:
     - python {{ python_min }}
   run:
     - matplotlib-base >=1.5
-    - numpy >=1.11, < 2
+    - numpy >=2
     - opencv
     - pandas
     - python >={{ python_min }}
