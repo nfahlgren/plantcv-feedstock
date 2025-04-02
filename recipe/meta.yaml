@@ -1,5 +1,5 @@
 {% set name = "plantcv" %}
-{% set version = "4.6" %}
+{% set version = "4.7" %}
 {% set python_min = "3.9" %}
 
 
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 3ad74ee0b76bfda1cf870e9c329c1bd9659e5ce678e4fdeea0f869af8ebe4263
+  sha256: 44405e114ab2e8337f47d85957a6541157f4a3dab2ec158d3c75650b0a8be23f
   patches:
     - 0001-Patch-pyproject.patch
 
@@ -25,7 +25,7 @@ requirements:
     - python {{ python_min }}
   run:
     - matplotlib-base >=1.5
-    - numpy >=1.11, < 2
+    - numpy >=2
     - opencv
     - pandas
     - python >={{ python_min }}
