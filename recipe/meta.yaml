@@ -39,6 +39,7 @@ requirements:
     - xarray >=2022.11.0
     - altair
     - vl-convert-python
+    - nd2
 
 test:
   imports:
