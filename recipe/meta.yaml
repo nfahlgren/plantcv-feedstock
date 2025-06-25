@@ -1,5 +1,5 @@
 {% set name = "plantcv" %}
-{% set version = "4.7" %}
+{% set version = "4.8" %}
 {% set python_min = "3.9" %}
 
 
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 44405e114ab2e8337f47d85957a6541157f4a3dab2ec158d3c75650b0a8be23f
+  sha256: 48e50d040547cac386cc4f09d7e16f5ff9531ca0f03da6995fd581baf4e2b01e
   patches:
     - 0001-Patch-pyproject.patch
 
