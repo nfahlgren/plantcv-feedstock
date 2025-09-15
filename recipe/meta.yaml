@@ -21,6 +21,7 @@ build:
 requirements:
   host:
     - setuptools
+    - setuptools_scm
     - pip
     - python {{ python_min }}
   run:
